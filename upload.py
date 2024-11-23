@@ -7,9 +7,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # Cloudflare API配置
-API_TOKEN = "ETD34poUGnQ7Ix2InA7LCP4Ya6giLmfYsOgdWQOv"
-ZONE_ID = "9c5b21516f68c785d5f013abe367598b"
-DOMAIN = "cf.xn--siqq7j.us.kg"
+API_TOKEN = ""
+ZONE_ID = ""
+DOMAIN = ""
 
 # 日志文件路径列表 - 可以添加任意数量的日志文件路径
 LOG_FILES = [
