@@ -1,6 +1,6 @@
-# Cloudflare DNS 自动更新工具
+# CFnat DDNS 自动更新工具
 
-这个工具用于自动从日志文件中提取IP地址并更新Cloudflare DNS记录。
+这个工具用于自动从cfnat-docker的日志文件中提取IP地址并更新Cloudflare DNS记录。
 
 ## 功能特点
 
