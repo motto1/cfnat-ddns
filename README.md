@@ -24,6 +24,11 @@
    ```bash
    python upload.py
    ```
+   或者设定crontab定时任务
+   ```bash
+   0 */1 * * * python /root/upload_natcf.py > /root/natcf.log 2>&1 && echo "Task completed" >> /root/natcf.log
+   //每小时执行一次并且生成log日志
+   ```
 
 ## 注意事项
 
