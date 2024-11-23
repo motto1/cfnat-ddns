@@ -14,6 +14,11 @@
    - `API_TOKEN`: Cloudflare API Token
    - `ZONE_ID`: Cloudflare Zone ID
    - `DOMAIN`: 要更新的域名
+   - 添加cfnat对应containers文件夹下的log文件路径
+   例如：
+```bash
+    "/mnt/sata1-1/docker/containers/13483dffe8db95d78dd6b600428fafb8e88d0ae09b0d69cc4ccd2cf50179019a/13483dffe8db95d78dd6b600428fafb8e88d0ae09b0d69cc4ccd2cf50179019a-json.log"
+ ```
 
 2. 运行脚本：
    ```bash
